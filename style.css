@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    background-image: url("./background.jpg");
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+h1{
+    font-size: 5rem!important;
+    margin-top: 2rem!important;
+    font-weight: normal;
+}
+
+input[type="number"] {
+    text-align: center;
+  }
+span{
+    background-color: gray;
+    padding: 3px 8px;
+    border-radius: 3px;
+    color: white;
+}
+
+
+.set-Timer{
+    align-items: center;
+    justify-content: center ;
+}
+.custom-width {
+    width: 50px; /* or any desired width value */
+    
+  }
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+.small-text{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.start-stop-buttons{
+    padding: 2rem 0 ;
+}
+.start-stop-buttons-items{
+    margin: 1rem!important;
+}
+
+
+.countdown-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.big-text{
+    font-size: 12rem;
+    line-height: 1;
+    margin: 0 6rem ;
+    font-weight: bold;
+}
+
+.elements{
+    text-align: center;
+}
+
+.elements span{
+    font-size: 1.3rem;
+}
+
+
+
+
+/*===== CONGRATULATIONS POP UP =====*/
+#pop-up{
+    background-color: white;
+    padding: 3rem 5rem;
+    border: 3px solid black;
+    position: absolute;
+    align-content: center;
+    justify-self: center;
+    display: none;
+}
